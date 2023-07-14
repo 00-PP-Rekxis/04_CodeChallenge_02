@@ -117,8 +117,8 @@ let age = parseInt(prompt("Bitte Alter eingeben:"));
 
 let drink;
 
-if (!isNaN(age) && age > -1) {
-    if (age >= 0 && age <= 5) {
+if (!isNaN(age) && age >= 0) {
+    if (age <= 5) {
         drink = "Milch";
     } else if (age <= 12) {
         drink = "Saft";
