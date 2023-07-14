@@ -119,7 +119,7 @@ console.log(`${firstName} trinkt ${drink}`);
 
 // let drink;
 
-// if (!isNaN(age) && typeof ageInput === "string") {
+// if (!isNaN(age) && typeof ageInput === "string" && age > -1) {
 //     if (age >= 0 && age <= 5) {
 //         drink = "Milch";
 //     } else if (age <= 12) {
