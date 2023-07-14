@@ -80,22 +80,22 @@ Alter 13-17 // Cola
 
 /******** Variante IIa. IF / ELSE IF - Kleinere Redundanz ********/
 
-// let firstName = prompt("Bitte Namen eingeben:");
-// let age = parseInt(prompt("Bitte Alter eingeben:"));
+let firstName = prompt("Bitte Namen eingeben:");
+let age = parseInt(prompt("Bitte Alter eingeben:"));
 
-// let drink;
+let drink;
 
-// if (age >= 0 && age <= 5) {
-//     drink = "Milch";
-// } else if (age <= 12) {
-//     drink = "Saft";
-// } else if (age <= 17){
-//     drink = "Cola";
-// } else {
-//     drink = "Wein";
-// }
+if (age >= 0 && age <= 5) {
+    drink = "Milch";
+} else if (age <= 12) {
+    drink = "Saft";
+} else if (age <= 17){
+    drink = "Cola";
+} else {
+    drink = "Wein";
+}
 
-// console.log(`${firstName} trinkt ${drink}`);
+console.log(`${firstName} trinkt ${drink}`);
 
 /******** Variante III. Ternärer Operator ********/
 
@@ -112,24 +112,24 @@ Alter 13-17 // Cola
 
 /******** Variante Var_1 ********/
 
-let firstName = prompt("Bitte Namen eingeben:");
-let ageInput = prompt("Bitte Alter eingeben:");
+// let firstName = prompt("Bitte Namen eingeben:");
+// let ageInput = prompt("Bitte Alter eingeben:");
 
-let age = parseInt(ageInput);
+// let age = parseInt(ageInput);
 
-let drink;
+// let drink;
 
-if (!isNaN(age) && typeof ageInput === "string") {
-    if (age >= 0 && age <= 5) {
-        drink = "Milch";
-    } else if (age <= 12) {
-        drink = "Saft";
-    } else if (age <= 17){
-        drink = "Cola";
-    } else {
-        drink = "Wein";
-    }
-    console.log(`${firstName} trinkt ${drink}`);
-} else {
-    console.log("Tee");
-}
+// if (!isNaN(age) && typeof ageInput === "string") {
+//     if (age >= 0 && age <= 5) {
+//         drink = "Milch";
+//     } else if (age <= 12) {
+//         drink = "Saft";
+//     } else if (age <= 17){
+//         drink = "Cola";
+//     } else {
+//         drink = "Wein";
+//     }
+//     console.log(`${firstName} trinkt ${drink}`);
+// } else {
+//     console.log("Tee");
+// }
