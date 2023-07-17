@@ -112,8 +112,8 @@ Alter 13-17 // Cola
 
 /******** Variante Var_1 ********/
 
-let firstName = prompt("Bitte Namen eingeben:");
-let age = parseInt(prompt("Bitte Alter eingeben:"));
+const firstName = prompt("Bitte Namen eingeben:");
+const age = parseInt(prompt("Bitte Alter eingeben:"));
 
 let drink;
 
